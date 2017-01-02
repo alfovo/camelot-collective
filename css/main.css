@@ -3,56 +3,49 @@ GENERAL
 ****************************************/
 
 body {
-  border: 2px solid #f2f2f2;
-  margin: 7% 7%;
+  border: 2px solid #d6d6d6;
+  margin: 6% 6%;
 }
 
-/*#wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
-}*/
+#wrapper {
+  text-align: center;
+}
 
 a {
-  font-family: 'Arimo', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   color: #808080;
   text-decoration: none;
-  border-bottom: 1px solid rgba(255,255,255,1);
-  margin: 0 auto 0 50px;
-}
-a:hover { 
-	color: #990000; 
-	border-bottom: 1px solid rgba(255,255,255,1); 
+  letter-spacing: 2px;
 }
 
 p { 
 	color: #333;
-	font-family: 'Merriweather', serif; 
+	font-family: 'Merriweather', sans-serif;
 	font-size: 16px; 
-	/*line-height: 24px; */
-	/*margin-bottom: 22px; */
 	-webkit-font-smoothing: antialiased; 
-	width: 360px; 
+	/*width: 360px; */
 	padding: 0 0 0 200px; 
-	/*margin: -35px 50px 0 auto !important;*/
 	position: relative; 
 	text-align: left;
 	max-width: 767px;
-	/*width: auto; */
-	/*padding: 20px; */
-	/*margin: 0 !important;*/
 }
-
-
-/*img {
-  max-width: 100%;
-}*/
 
 h3 {
   font-family: 'Merriweather', sans-serif; 
-  padding: 400px 0 0 200px;
+  padding: 0 0 0 200px;
   font-size: 1.75em;
   font-weight: 300;
+  text-align: left;
+}
+
+.welcome {
+  display: block;
+  margin: auto;
+  max-width: 80%;
+}
+
+.bio{
+  max-width: 400px;
 }
 
 /***************************************
@@ -60,40 +53,29 @@ HEADING
 ****************************************/
 
 header {
-  float: left;
-  padding: 100px 0 100px 0;
+  /*float: left;*/
+  padding: 60px 0 60px 0;
   width: 100%;
-  background: rgba(240, 240, 240, 0.9);
-}
-
-#logo {
   text-align: center;
   margin: 0;
 }
 
 h1 {
-  margin: 0 0 40px 0;
   color: #333;
-  font-size: 3.75em;
-  line-height: 0.8em;
+  font-size: 4em;
   font-family: 'Signika', sans-serif; 
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: 3.5px;
 }
 
 h2 {
-  font-size: 1em;
-  margin: 0 0 40px;
-  font-family: 'Arimo', sans-serif; 
+  color: #afafaf;
+  font-size: 80%;
+  font-family: 'Montserrat', sans-serif; 
   text-transform: uppercase;
-  font-weight: 700;
+  letter-spacing: 5px;
 }
 
-.monogram {
-  width: 200px;
-  height: 100%;
-  margin: 0 auto 0 50px;
-  padding: 50px 0 0 0;
-}
 
 /***************************************
 NAVIGATION
@@ -101,24 +83,49 @@ NAVIGATION
 
 nav {
   text-align: center;
-  padding: 10px 0;
-  margin: 20px 0 0;
+  padding: 30px;
 }
 
 nav ul {
   list-style: none;
-  margin: 0 10px;
   padding: 0;
 }
 
 /* confusing! */
 nav li {
-  display: inline-block; 
+  display: inline-block;
+  position: relative;
 }
 
 nav a {
-  font-weight: 800;
-  padding: 15px 10px;
+  padding: 20px;
+  font-size: 80%;
+}
+
+nav li:before, nav li:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-top: 2px solid #d6d6d6;
+    top: 50%;
+    width: 125px;
+
+}
+nav li:before {
+    right: 100%;
+    margin-right: 210px;
+}
+
+nav li:after {
+    left: 100%;
+    margin-left: 210px;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+  color: #32673f;
+  font-weight: 600;
+  /*border-bottom: 2px solid #d6d6d6;*/
 }
 
 /***************************************
@@ -126,10 +133,10 @@ FOOTER
 ****************************************/
 
 footer {
-  font-size: 0.75em;
   text-align: center;
   clear: both;
   padding-top: 50px;
+  padding-bottom: 50px;
   color: #ccc;
 }
 
