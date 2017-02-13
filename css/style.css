@@ -5763,8 +5763,8 @@ header li > a > i.caret {
 }
 
 .side-menu-fixed li a, .side-menu-fixed .mi-menu ul li > a, .side-menu-fixed .sidebar-nav .panel-item > span, .side-menu-fixed .mi-menu li .fa, .adv-img h2, .navbar-toggle > span {
-    color: #FFFFFF;
-    font-weight: 600;
+    /*color: #FFFFFF;*/
+    font-weight: 700;
 }
 
 .subline-bar li:hover, div.call-action-box a, div.call-action-box a.btn {
@@ -5815,7 +5815,7 @@ header li > a > i.caret {
 }
 
 .nav.inner, .full-width-menu, .navbar-main, .side-menu-fixed, .navbar-inner .navbar-toggle, .navbar-inner .navbar-toggle:hover {
-    background-color: #1d1e1f;
+    background-color: transparent;
 }
 
     .side-menu-fixed .side-menu .active, .side-menu-fixed .side-menu ul, .side-menu-fixed .panel, footer.footer-center, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
@@ -5823,7 +5823,7 @@ header li > a > i.caret {
     }
 
     .side-menu-fixed, .side-menu-fixed .panel, .side-menu.over li:hover > ul, .side-menu.over li.active > ul, .side-menu.over li:hover > ul.collapse {
-        border-color: #2D2E2F;
+        border-color: transparent;
     }
 
 header .custom-area {
@@ -5876,7 +5876,7 @@ footer .btn-group.social-group i, footer {
 }
 
 header .social-group a i.fa, header .custom-area, .navbar-default .navbar-nav li a, header .navbar-mini i {
-    color: #D3D3D3;
+    color: #545454;
 }
 
 .mega-menu h5, .mega-menu i {
@@ -6067,7 +6067,7 @@ header .navbar-social {
 }
 
 .my-class-home .section .flexslider, footer {
-    background-color: #transparent;
+    background-color: #1D1E1F;
 }
 
 .my-class-home  h1 {
@@ -6245,7 +6245,7 @@ MOBILE
         padding:0px 15px;
     }
     .navbar-header {
-        background-color: #1D1E1F;
+        background-color: transparent;
     }
 
     .my-class-home .flex-control-paging {
