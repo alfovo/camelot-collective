@@ -34,7 +34,7 @@ GLOBAL STYLE
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700,900,400italic);
 
 body, .adv-img p, .caption-bottom p, .adv-circle .caption p, .advs-box p, .list-blog p {
-    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-size: 13px;
     line-height: 1.42857143;
     color: #4C4C4C;
@@ -3625,7 +3625,7 @@ LIST GRID & MASO
 
 .album-title {
     padding: 5px 0;
-    box-shadow: 0 4px 2px -2px #DCDCDC;
+    box-shadow: 0 4px 0 -2px #DCDCDC;
     display: none;
     font-weight: 600;
     font-size: 17px;
@@ -5642,7 +5642,7 @@ COLORS
 -------------
 */
     .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus, .white.btn, .white .btn, .circle-button, .btn.circle-button, .header-bootstrap, .popup-banner .panel-body, .box-menu-inner > .row, .pagination > li > a, .pagination > li > span, .pagination > .disabled > a, .header-title hr, .block-infos .block-comment, .nav.inner.ms-rounded > li > a, .btn-default, .advs-box.boxed, .panel-default > .panel-heading, .panel-default .panel-footer, .advs-box-top-icon-img .icon, .advs-box-multiple div.circle, .advs-box-side-img hr, .call-action-box, .title-base hr, .white .title-base hr, .header-video.white .title-base hr, .header-slider.white .title-base hr, .header-animation.white .title-base hr, .header-title.white .title-base hr, .nav.inner, .nav.inner.ms-mini, .popover-title, .bg-color, .title-base .scroll-top, .title-modern .scroll-top, i.square, .header-base, .popup-banner.full-width-top, .popup-banner.full-width-bottom, .popup-banner.full-width-top, .progress-bar, .tagbox span {
-        background-color: #272727;
+        background-color: #757575;
     }
 
         .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus, .btn-primary:focus, .btn-primary.focus, .btn-primary.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default, .pagination > li > a:focus, .circle-button:hover, .btn.circle-button:hover, .pagination > .active > a:hover, .pagination > .disabled > a:hover, .pagination > li > a:hover, .btn-default:hover, .nav.inner:not(.ms-minimal) > li:hover > a, .nav.inner > li.active > a, .nav.inner:not(.ms-minimal) .dropdown-menu, .nav.inner.ms-rounded li.active a, .minisocial-group.circle i:hover, .pagination > .active > a {
@@ -5672,7 +5672,7 @@ COLORS
 }
 
 .white.btn, .white .btn, .circle-button, .btn.circle-button, .advs-box.boxed, .box-menu-inner > .row, .pagination > .active > a:hover, .pagination > li.disabled > a:hover, .pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > a, .pagination > li > span, .pagination > li.disabled > a, .nav.inner.ms-rounded li a, .btn-default, .btn, .advs-box.boxed .advs-box-content, .bs-panel, .block-infos .block-data, .tag-row i.circle, .niche-box-team .content-box hr, .call-action-box, .pagination > .active > a, .inner .dropdown-menu, .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus, .accordion-list .list-group-item, .accordion-list .list-group-item > a.active, .social-group i.circle, .social-button i.circle, .accordion-list .list-group-item > a.active:hover {
-    border-color: #272727;
+    border-color: #757575;
 }
 
 
@@ -5815,7 +5815,7 @@ header li > a > i.caret {
 }
 
 .nav.inner, .full-width-menu, .navbar-main, .side-menu-fixed, .navbar-inner .navbar-toggle, .navbar-inner .navbar-toggle:hover {
-    background-color: transparent;
+    background-color: #FFFFFF;
 }
 
     .side-menu-fixed .side-menu .active, .side-menu-fixed .side-menu ul, .side-menu-fixed .panel, footer.footer-center, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {

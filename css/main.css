@@ -19,13 +19,16 @@ header {
 }
 
 h1 {
-  text-align: center;
 }
 
 h2 {
   color: #afafaf;
   font-size: 80%;
-  font-family: 'Montserrat', sans-serif; 
-  text-transform: uppercase;
-  letter-spacing: 5px;
+  text-transform: none;
+}
+
+h3 {
+  font-size: 120%;
+  font-family: 'Roboto Slab', serif;
+  text-transform: none;
 }
