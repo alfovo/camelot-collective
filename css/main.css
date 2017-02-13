@@ -2,46 +2,8 @@
 GENERAL
 ****************************************/
 
-/*body {
-  border: 2px solid #d6d6d6;
-  margin: 6% 6%;
-}*/
-
 #wrapper {
   text-align: center;
-}
-
-/*a {
-  font-family: 'Merriweather', sans-serif;
-  color: #808080;
-  text-decoration: none;
-  letter-spacing: 2px;
-}*/
-
-/*p { 
-	color: #333;
-	font-family: 'Merriweather', sans-serif;
-	font-size: 16px; 
-	-webkit-font-smoothing: antialiased; */
-	/*width: 360px; */
-/*	padding: 0 0 0 200px; 
-	position: relative; 
-	text-align: left;
-	max-width: 767px;
-}
-*/
-h3 {
-  font-family: 'Merriweather', sans-serif; 
-  padding: 0 0 0 200px;
-  font-size: 1.75em;
-  font-weight: 300;
-  text-align: left;
-}
-
-.welcome {
-  display: block;
-  margin: auto;
-  max-width: 80%;
 }
 
 .bio{
@@ -54,21 +16,10 @@ HEADING
 
 header {
   font-family: 'Anonymous Pro', monospace;
-  /*color: #FFF;*/
-  /*float: left;
-  padding: 60px 0 60px 0;
-  width: 100%;*/
-  /*text-align: center;*/
-  /*margin: 0;*/
 }
 
 h1 {
-/*  color: #333;
-  font-size: 4em;*/
-  /*font-family: 'Anonymous Pro', monospace;*/
   text-align: center;
-/*  font-weight: 600;
-  letter-spacing: 3.5px;*/
 }
 
 h2 {
@@ -77,74 +28,4 @@ h2 {
   font-family: 'Montserrat', sans-serif; 
   text-transform: uppercase;
   letter-spacing: 5px;
-}
-
-
-/***************************************
-NAVIGATION
-****************************************/
-
-/*nav {
-  text-align: center;
-  padding: 30px;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-}
-*/
-/* confusing! */
-/*nav li {
-  display: inline-block;
-  position: relative;
-}
-
-nav a {
-  padding: 20px;
-  font-size: 80%;
-}
-
-nav li:before, nav li:after {
-    content: "";
-    position: absolute;
-    height: 5px;
-    border-top: 2px solid #d6d6d6;
-    top: 50%;
-    width: 125px;
-
-}
-nav li:before {
-    right: 100%;
-    margin-right: 210px;
-}
-
-nav li:after {
-    left: 100%;
-    margin-left: 210px;
-}*/
-
-/* selected nav link */
-/*nav a.selected, nav a:hover {
-  color: #32673f;
-  font-weight: 600;*/
-  /*border-bottom: 2px solid #d6d6d6;*/
-}
-
-/***************************************
-FOOTER
-****************************************/
-
-/*footer {
-  text-align: center;
-  clear: both;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: #ccc;
-}*/
-
-.social-icon {
-  width: 10%;
-  height: auto;
-  margin: 0 5px;
 }
