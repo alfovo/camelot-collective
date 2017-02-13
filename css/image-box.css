@@ -110,7 +110,7 @@ HALF CONTENT & SIDE CONTENT & FULL CONTENT
     left: 0;
     padding: 25px 15px;
     /*background-color: rgba(4, 4, 4, 0.7); */
-	background-color: rgba(204, 177, 132, 0.5);
+	background-color: transparent;
 }
 
 .adv-img-side-content .caption {
