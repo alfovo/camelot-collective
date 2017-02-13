@@ -24,7 +24,9 @@
     <link rel="stylesheet" href="css/image-box.css">
     <link rel="stylesheet" href="css/components.css">
     <link rel="stylesheet" href="css/animations.css">
-    
+	<script src='plugins/jquery.twbsPagination.min.js'></script>
+	
+	
 	
   <!--[if lt IE 9]>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -46,8 +48,142 @@
   <div id="wrapper">
 
   
-  
-  
+  <div class="album-main">
+    <div class="album-list row">
+        
+        <div class="album-box col-md-4">
+            <div class="img-box lightbox" data-trigger="hover">
+                <a href="#" class="img-box">
+                    <img src="img/ghost.png">
+                </a>
+                
+                    <h2 class="album-name">Plants</h2>
+                
+				<span class="caption">
+					<h1>Plants</h1>
+				</span>
+				
+            </div>
+        </div>
+		
+		 <div class="album-box col-md-4">
+            <div class="img-box lightbox" data-trigger="hover">
+                <a href="#" class="img-box">
+                    <img src="img/mom.png">
+                </a>
+                
+                    <h2 class="album-name">Mother</h2>
+                
+				<span class="caption">
+					<h1>Mother's Day</h1>
+				</span>
+				
+            </div>
+        </div>
+		
+		
+        <!-- INSERT OTHERS ALBUM MENU ITEMS HERE -->
+    </div>
+    <div class="cont-album-box">
+        <p class="album-title">
+            <span>...</span> 
+            <a class="button-list btn btn-default btn-sm"><i class="fa fa-arrow-left"></i> Album list</a>
+        </p>
+        <div class="album-item">
+            <div class="grid-list gallery">
+                <div class="grid-box row">
+                    <div class="grid-item col-md-4">
+                        <a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                            <i class="fa fa-camera"></i>
+                            <img src="http://www.framework-y.com/images/thumb-wide.png">
+                        </a>
+                    </div>
+                    <div class="grid-item col-md-4">
+                        <a class="img-box mfp-iframe i-center" href="https://www.youtube.com/watch?v=bpqhStV2_rc">
+                            <i class="fa fa-film"></i>
+                            <img src="http://www.framework-y.com/images/thumb-wide.png" />
+                        </a>
+                    </div>
+                    <div class="grid-item col-md-4">
+                        <a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                            <i class="fa fa-camera"></i>
+                            <img src="http://www.framework-y.com/images/thumb-wide.png">
+                        </a>
+                    </div>
+                    <div class="grid-item col-md-4">
+                        <a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                            <i class="fa fa-camera"></i>
+                            <img src="http://www.framework-y.com/images/thumb-wide.png">
+                        </a>
+                    </div>
+                </div>
+                <ul class="pagination pagination-sm pagination-grid" data-page-items="3" data-pagination-anima="show-scale"></ul>
+            </div>
+        </div>
+        <div class="album-item">
+            <div class="grid-list gallery">
+                <div class="grid-box row">
+                    <div class="grid-item col-md-4">
+                        <a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                            <i class="fa fa-camera"></i>
+                            <img src="http://www.framework-y.com/images/thumb-wide.png">
+                        </a>
+                    </div>
+                    <div class="grid-item col-md-4">
+                        <a class="img-box mfp-iframe i-center" href="https://www.youtube.com/watch?v=bpqhStV2_rc">
+                            <i class="fa fa-film"></i>
+                            <img src="http://www.framework-y.com/images/thumb-wide.png" />
+                        </a>
+                    </div>
+                    <div class="grid-item col-md-4">
+                        <a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                            <i class="fa fa-camera"></i>
+                            <img src="http://www.framework-y.com/images/thumb-wide.png">
+                        </a>
+                    </div>
+                    <div class="grid-item col-md-4">
+                        <a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                            <i class="fa fa-camera"></i>
+                            <img src="http://www.framework-y.com/images/thumb-wide.png">
+                        </a>
+                    </div>
+                    <div class="grid-item col-md-4">
+                        <a class="img-box mfp-iframe i-center" href="https://www.youtube.com/watch?v=-BrDlrytgm8">
+                            <i class="fa fa-film"></i>
+                            <img src="http://www.framework-y.com/images/thumb-wide.png" />
+                        </a>
+                    </div>
+                </div>
+                <div class="list-nav">
+                    <a href="#" class="circle-button btn btn-sm load-more-grid" data-pagination-anima="fade-bottom" data-page-items="3">
+                        Load More <i class="fa fa-arrow-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="album-item" id="album-3">
+            <div class="grid-list gallery">
+                <div class="grid-box row">
+                    <div class="grid-box row">
+                        <div class="grid-item col-md-4">
+                            <a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                                <i class="fa fa-camera"></i>
+                                <img src="http://www.framework-y.com/images/thumb-wide.png">
+                            </a>
+                        </div>
+                        <div class="grid-item col-md-4">
+                            <a class="img-box i-center" href="http://www.framework-y.com/images/thumb-large.png">
+                                <i class="fa fa-camera"></i>
+                                <img src="http://www.framework-y.com/images/thumb-wide.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- INSERT OTHERS ALBUMS HERE -->
+    </div>
+</div>
   
   
   
@@ -56,19 +192,25 @@
   
   
   <footer>
-        <a href="https://www.instagram.com/tagging_whales/"><img src="img/instagram_logo.png" alt="Instagram Logo" class="social-icon"></a>
-        <a href="https://github.com/alfovo/"><img src="img/github_logo.png" alt="Github Logo" class="social-icon"></a>
-		
+       
 		<script src='plugins/isotope.min.js'></script>
-			<link rel="stylesheet" href='plugins/magnific-popup.css'>
+		<link rel="stylesheet" href='plugins/magnific-popup.css'>
+		
+		<link property="" rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+		<script async src="plugins/bootstrap/js/bootstrap.min.js"></script>
+		<script src="plugins/imagesloaded.min.js"></script>
+		<script src='plugins/isotope.min.js'></script>
+		<script src='plugins/jquery.twbsPagination.min.js'></script>
+		<script src='plugins/jquery.magnific-popup.min.js'></script>
+		<script src='plugins/jquery.tab-accordion.js'></script>
+		<script src='plugins/jquery.twbsPagination.min.js'></script>
+		<link rel="stylesheet" href="css/image-box.css">
+		<link rel="stylesheet" href="css/animations.css">
 			
-			<link property="" rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
-			<script async src="plugins/bootstrap/js/bootstrap.min.js"></script>
-			<script src="plugins/imagesloaded.min.js"></script>
-			<script src='plugins/isotope.min.js'></script>
-			<script src='plugins/jquery.twbsPagination.min.js'></script>
-			<script src='plugins/jquery.magnific-popup.min.js'></script>
-			<script src='plugins/jquery.tab-accordion.js'></script>
+			 
+
+       
+			
   </footer>
   </div>
   
