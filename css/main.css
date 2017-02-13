@@ -2,10 +2,10 @@
 GENERAL
 ****************************************/
 
-body {
+/*body {
   border: 2px solid #d6d6d6;
   margin: 6% 6%;
-}
+}*/
 
 #wrapper {
   text-align: center;
@@ -63,7 +63,7 @@ header {
 h1 {
   color: #333;
   font-size: 4em;
-  font-family: 'Signika', sans-serif; 
+  font-family: 'Anonymous Pro', monospace;
   font-weight: 600;
   letter-spacing: 3.5px;
 }
