@@ -10,6 +10,10 @@ GENERAL
   max-width: 400px;
 }
 
+.home{
+  max-width: 30%;
+  text-align: center;
+}
 /***************************************
 HEADING
 ****************************************/
@@ -31,4 +35,9 @@ h3 {
   font-size: 120%;
   font-family: 'Roboto Slab', serif;
   text-transform: none;
+}
+
+h4 {
+  font-size: 120%;
+  text-align: center;
 }
